@@ -14,11 +14,14 @@ header {
 header#cabecera {
     width: 80%;
     height: 162px;
-    background-color: white;
+    background-color: antiquewhite;
     margin: 0px 10%;
 }
 header section#cabo {
     width: 100%;
+    display: inline-block;
+}
+header section h1, header section div#info-cabecera {
     display: inline-block;
 }
 header section h1 a {
@@ -32,8 +35,13 @@ header section h1 a span#pro {
     color: #333;
     font-size: 57px;
 }
-header section#info-cabecera {
-    width: 45%;
+header section div#info-cabecera {
+    width: 55%;
+    float: right;
+}
+header section div p, header section div p strong, header section div button {
+    display: inline-block;
+    margin-right: 10px;
 }
 header nav#navbar {
     background-color: red;
