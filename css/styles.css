@@ -92,3 +92,53 @@ header nav ul li a#active {
     color: #000;
     opacity: 0.9;
 }
+section#slider {
+    width: 100%;
+    height: 566px;
+    background: url(../images/home-slide-1.jpg) center;
+    background-repeat: no-repeat;
+    padding-top: 75px;
+}
+section#slider h4, section#slider h2, section#slider h3, section#slider p {
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+section#slider h4 {
+    margin-bottom: 30px;
+    color: #1ac4e8;
+    font-weight: 300;
+    font-size: 40px;
+}
+section#slider h2 {
+    margin-bottom: 36px;
+    line-height: 1.125;
+    font-size: 80px;
+    font-weight: bold;
+}
+section#slider h3 {
+    margin-bottom: 53px;
+    color: #fe6c01;
+    font-size: 46px;
+    line-height: 1.08696;
+    font-weight: bold;
+}
+section#slider p {
+    margin-bottom: 19px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+main section#seccion1 {
+    width: 100%;
+    height: 463.4px;
+    text-align: center;
+}
+main section#seccion1 h2 span.black {
+    font-size: 46px;
+    line-height: 1.08696;
+    color: #333;
+}
+main section#seccion1 h2 span.orange {
+    color: #f36c01;
+
+}
