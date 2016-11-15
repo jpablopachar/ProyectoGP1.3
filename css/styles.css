@@ -6,16 +6,11 @@ body {
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
 }
-header {
-    width: 100%;
-    height: 170px;
-    background-color: antiquewhite;
-}
 header#cabecera {
-    width: 80%;
-    height: 162px;
-    background-color: antiquewhite;
-    margin: 0px 10%;
+    width: 90%;
+    height: 170px;
+    padding: 30px 15px 9px 15px;
+    margin: 0 auto;
 }
 header section#cabo {
     width: 100%;
@@ -41,7 +36,23 @@ header section div#info-cabecera {
 }
 header section div p, header section div p strong, header section div button {
     display: inline-block;
-    margin-right: 10px;
+    margin-top: 12px;
+}
+header section div p#textoNumero {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 1.2;
+    opacity: 0.7;
+}
+header section div p img {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+header section div button {
+    background-color: #fe6c01;
+
 }
 header nav#navbar {
     background-color: red;
