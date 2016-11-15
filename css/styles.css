@@ -31,7 +31,7 @@ header section h1 a span#pro {
     font-size: 57px;
 }
 header section div#info-cabecera {
-    width: 55%;
+    width: 56%;
     float: right;
 }
 header section div p, header section div p strong, header section div button {
@@ -50,20 +50,45 @@ header section div p img {
     vertical-align: middle;
     margin-left: 10px;
 }
+header section div p strong {
+    margin-left: 15px;
+    font-size: 25px;
+}
+header section div p strong:hover {
+    color: #1ac4e8;
+}
 header section div button {
     background-color: #fe6c01;
-
+    padding: 19px 15px;
+    margin-left: 18px;
 }
-header nav#navbar {
-    background-color: red;
-    width: 50%;
+header section div button:hover {
+    background-color: #1ac4e8;
 }
-header nav ul {
-
+header section div a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 header nav ul li {
     list-style: none;
+    float: left;
+    margin-right: 38px;
+    margin-top: 40px
 }
 header nav ul li a {
-
+    text-decoration: none;
+    color: #313131;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+header nav ul li a:hover {
+    color: #000;
+    opacity: 0.9;
+}
+header nav ul li a#active {
+    color: #000;
+    opacity: 0.9;
 }
