@@ -130,15 +130,197 @@ section#slider p {
 }
 main section#seccion1 {
     width: 100%;
-    height: 463.4px;
+    height: 185.400px;
     text-align: center;
+    display: inline-block;
+    padding: 139px 0px;
 }
 main section#seccion1 h2 span.black {
     font-size: 46px;
     line-height: 1.08696;
     color: #333;
+    margin-right: 11.500px;
 }
 main section#seccion1 h2 span.orange {
     color: #f36c01;
+    font-weight: 300;
+    font-size: 46px;
+}
+main section#seccion1 h2 span.black, main section#seccion1 h2 span.orange {
+    display: inline-block;
+    margin-bottom: 35px;
+}
+main section#seccion1 p {
+    color: #777;
+    font-size: 20px;
+    line-height: 1.7;
+}
+main section#seccion2 {
+    width: 100%;
+    height: 779px;
+    background-color: antiquewhite;
+}
+main section article#art1, main section article#art2 {
+    display: inline-block;
+    padding-top: 105px;
+    padding-bottom: 139px;
+    text-align: center;
+    color: #fff;
+}
+main section article#art1 {
+    width: 50%;
+    height: 534.400px;
+    background-color: #1ac4e8;
+}
+main section article#art2 {
+    width: 50%;
+    height: 534.400px;
+    float: right;
+    background: url(../images/home-1-1024x746.jpg) center;
+}
+main section article h3 span#webhost, main section article h3 span#services {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 46px;
+}
+main section article h3 span#webhost {
+    margin-right: 11.500px;
+}
+main section article h3 span#services {
+    font-weight: 300;
+}
+main section article p {
+    display: block;
+    margin-top: 42px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+main section article button.readMore {
+    margin: 40px 0px 0px 0px;
+    padding: 21px 38px;
+    background-color: #fe6c01;
+    border-color: #fe6c01;
+    font-size: 18px;
+}
+main section article button a {
+    text-decoration: none;
+    color: #fff;
+}
+main section article button:hover {
+    background-color: #777;
+    border-color: #777;
+}
+main section article button.readMore2:hover {
+    background-color: #1ac4e8;
+    border-color: #1ac4e8;
+}
+main section article#art2 h2 span#estrella {
+    font-size: 96px;
+    color: #1ac4e8;
+    line-height: 1.14583;
+}
+main section article#art2 h2 span#com {
+    font-size: 96px;
+    line-height: 1.14583;
+}
+main section article#art2 h3 {
+    margin-top: 34px;
+}
+main section article h3 span#domain, main section article h3 span#serv {
+    display: block;
+    font-size: 46px;
+}
+main section#seccion3 {
+    width: 100%;
+    height: 767.600;
+    padding: 139px 0px 122px 0px;
+    background-color: aliceblue;
+}
+main section#seccion3 h2, main section#seccion3 p#textoSeccion3 {
+    width: 100%;
+    text-align: center;
+}
+main section#seccion3 h2 span.black {
+    font-size: 46px;
+    line-height: 1.08696;
+    margin-right: 11.500px;
+}
+main section#seccion3 h2 span.orange {
+    font-size: 46px;
+    line-height: 1.08696;
+    font-weight: 300;
+    color: #fe6c01;
+}
+main section#seccion3 p#textoSeccion3 {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #777;
+}
+main section#seccion3 ul {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+}
+main section#seccion3 ul li.lista, main section#seccion3 ul li.lista2 {
+    display: inline-block;
+    padding: 0px 50px;
+}
+main section#seccion3 ul li.lista {
+    width: 42.57%;
+    list-style: none;
+}
+main section#seccion3 ul li.lista2 {
+    float: right;
+}
+main section#seccion3 ul li img {
+    background: url(../icons/checkbox-blank-circle.png) center;
+    background-repeat: no-repeat;
+    padding: 23px;
+}
+main section#seccion3 ul li img:hover {
+    background: url(../icons/checkbox-blank-circle2.png) center;
+    background-repeat: no-repeat;
+    padding: 23px;
+}
+main section#seccion4 {
+    width: 100%;
+    height: 473.800px;
+    padding: 130px 0px 139px 0px;
+    background: url(../images/home-2-2048x1153.jpg) center;
+    color: #fff;
+}
+main section#seccion4 h2, main section#seccion4 p {
+    text-align: center;
+}
+.our {
+    font-size: 46px;
+    margin-right: 11.500px;
+    font-weight: bold;
+}
+.statistics {
+    font-size: 46px;
+    font-weight: 300;
+}
+main section#seccion4 p {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+main section#seccion4 div img.circulo, main section#seccion4 div p.numeroCirculo, main section#seccion4 div img.subCirculo {
 
+}
+main section#seccion4 span.circuloDatos {
+    background-color: #fe6c01;
+    width: 178px;
+    height: 178px;
+}
+main section#seccion4 div p.numeroCirculo {
+    width: 178px;
+    height: 178px;
+    background: url(../icons/checkbox-blank-circle-outline.png);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fe6c01;
+    border-radius: 50%;
 }
