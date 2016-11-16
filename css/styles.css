@@ -263,24 +263,52 @@ main section#seccion3 ul {
 }
 main section#seccion3 ul li.lista, main section#seccion3 ul li.lista2 {
     display: inline-block;
-    padding: 0px 50px;
+    padding: 0px 0px;
 }
 main section#seccion3 ul li.lista {
-    width: 42.57%;
+    width: 47.7%;
     list-style: none;
+    padding: 0px 15px
 }
 main section#seccion3 ul li.lista2 {
     float: right;
 }
+main section#seccion3 ul li.lista3 {
+    margin-top: 50px;
+}
 main section#seccion3 ul li img {
     background: url(../icons/checkbox-blank-circle.png) center;
     background-repeat: no-repeat;
-    padding: 23px;
+    padding: 33px;
 }
 main section#seccion3 ul li img:hover {
     background: url(../icons/checkbox-blank-circle2.png) center;
     background-repeat: no-repeat;
-    padding: 23px;
+    padding: 33px;
+}
+main section#seccion3 ul li.lista aside, main section#seccion3 ul li.lista section {
+    display: inline-block;
+}
+main section#seccion3 ul li.lista aside {
+    width: 20%;
+    height: 138px;
+}
+main section#seccion3 ul li.lista section {
+    width: 75%;
+    height: 138px;
+    vertical-align: top;
+    padding-left: 24px;
+}
+main section#seccion3 ul li.lista section h4 {
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+main section#seccion3 ul li.lista section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 5px;
+    color: #333;
 }
 main section#seccion4 {
     width: 100%;
@@ -323,4 +351,152 @@ main section#seccion4 div p.numeroCirculo {
     justify-content: center;
     background-color: #fe6c01;
     border-radius: 50%;
+}
+main section#seccion5 {
+    width: 100%;
+    height: 947.600px;
+    padding: 130px 0px;
+}
+main section#seccion5 h2, main section#seccion5 p#textoSeccion5 {
+    text-align: center;
+}
+main section#seccion5 h2 span.statistics {
+    color: #fe6c01;
+}
+main section#seccion5 p#textoSeccion5 {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #777;
+}
+main section#seccion5 section.planes {
+    width: 30%;
+    height: 726.200px;
+    background-color: #fff;
+    margin: 36px 15px 0px 15px;
+    display: inline-block;
+    text-align: center;
+}
+main section#seccion5 div.valor {
+    padding: 39px 0px 32px 0px;
+}
+main section#seccion5 section.planes h4 {
+    font-size: 40px;
+}
+main section#seccion5 section.planes div.valor p {
+    margin-top: 22px;
+    padding-left: 48px;
+}
+main section#seccion5 section.planes div.valor p sup {
+    font-size: 55px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #1ac4e8;
+}
+main section#seccion5 section.planes div.valor p span.precio {
+    font-size: 75px;
+    font-weight: bold;
+    color: #1ac4e8;
+}
+main section#seccion5 section.planes div.valor p span.meses {
+    margin-left: 4px;
+    font-size: 20px;
+    color: #777;
+}
+main section#seccion5 section.planes hr {
+    border-top: 2px solid #1ac4e8;
+}
+main section#seccion5 section.planes div.contentPlanes {
+    height: 445.200px;
+    margin-top: 24px;
+}
+main section#seccion5 section.planes div.contentPlanes p {
+    padding: 0px 55px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #777;
+}
+main section#seccion5 section.planes div.contentPlanes ul {
+    margin-top: 13px;
+    height: 248.200px;
+}
+main section#seccion5 section.planes div.contentPlanes ul li {
+    padding: 13px 0px 12px 0px;
+    list-style: none;
+    height: 24px;
+    border-bottom: 1px solid #999;
+}
+main section#seccion5 section.planes div.contentPlanes ul li span.blue {
+    color: #1ac4e8;
+    font-weight: 700;
+    font-size: 20px;
+}
+main section#seccion5 section.planes div.contentPlanes ul li span.hight {
+    color: #777;
+    font-size: 20px;
+}
+main section#seccion5 section.planes div.contentPlanes button {
+    margin-top: 33px;
+    padding: 21px 38px;
+    background-color: #fe6c01;
+    border-color: #fe6c01;
+}
+main section#seccion5 section.planes div.contentPlanes button:hover {
+    background-color: #1ac4e8;
+    border-color: #1ac4e8;
+}
+main section#seccion5 section.planes div.contentPlanes button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+main section#seccion6 {
+    width: 100%;
+    height: 452.800px;
+    padding: 122px 0px 172px 0px;
+    background-color: #1ac4e8;
+    color: #fff;
+}
+main section#seccion6 h2 {
+    text-align: center;
+}
+main section#seccion6 h2 span {
+    font-weight: 700;
+    font-size: 46px;
+    vertical-align: top;
+}
+main section#seccion6 div#containerSeccion6 {
+    margin: 60px 15px 0px 15px;
+}
+main section#seccion6 section.container {
+    display: inline-block;
+    width: 30%;
+    height: 306.400px;
+    padding: 0px 15px;
+}
+main section#seccion6 section.container aside, main section#seccion6 section.container section {
+    display: inline-block;
+}
+main section#seccion6 section.container aside img {
+    border-radius: 100%;
+}
+main section#seccion6 section.container section {
+    padding-left: 28px;
+    height: 53.200px;
+    vertical-align: top;
+    margin-top: 18px;
+}
+main section#seccion6 section.container section h6 {
+    font-size: 22px;
+}
+main section#seccion6 section.container section small {
+    margin-top: 6px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+main section#seccion6 section.container p {
+    margin-top: 20px;
+    height: 201.600px;
+    font-size: 20px;
+    line-height: 1.7;
 }
