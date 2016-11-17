@@ -376,9 +376,6 @@ main section#seccion5 section.planes {
     display: inline-block;
     text-align: center;
 }
-main section#seccion5 section.planes2 {
-    background: rgb(248, 248, 248);
-}
 main section#seccion5 div.valor {
     padding: 39px 0px 32px 0px;
 }
