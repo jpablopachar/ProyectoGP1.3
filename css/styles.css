@@ -234,7 +234,6 @@ main section#seccion3 {
     width: 100%;
     height: 767.600;
     padding: 139px 0px 122px 0px;
-    background-color: aliceblue;
 }
 main section#seccion3 h2, main section#seccion3 p#textoSeccion3 {
     width: 100%;
@@ -377,6 +376,9 @@ main section#seccion5 section.planes {
     display: inline-block;
     text-align: center;
 }
+main section#seccion5 section.planes2 {
+    background: rgb(248, 248, 248);
+}
 main section#seccion5 div.valor {
     padding: 39px 0px 32px 0px;
 }
@@ -499,4 +501,158 @@ main section#seccion6 section.container p {
     height: 201.600px;
     font-size: 20px;
     line-height: 1.7;
+}
+main section#seccion7 {
+    width: 100%;
+    height: 680.200px;
+    padding: 130px 0px 139px 0px;
+}
+main section#seccion7 div#containerSeccion7 {
+    width: 100%;
+}
+main section#seccion7 div#containerSeccion7 h2, main section#seccion7 div#containerSeccion7 p {
+    text-align: center;
+}
+main section#seccion7 div#containerSeccion7 h2 {
+    font-size: 46px;
+    font-weight: 700;
+}
+main section#seccion7 div#containerSeccion7 p {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #777;
+}
+main section#seccion7 div#containerSeccion7 section#formulario {
+    width: 98%;
+    height: 447.800px;
+    margin: 47px 15px 0px 15px;
+}
+main section#seccion7 div#containerSeccion7 section#formulario form div#form1 {
+    width: 100%;
+    display: block;
+}
+main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section {
+    width: 30%;
+    display: inline-block;
+    padding: 0px 15px;
+}
+main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section label.primeraFila {
+    color: #1ac4e8;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 22px;
+}
+main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section input {
+    width: 90%;
+    height: 32.400px;
+    margin-top: 22px;
+    padding: 13px 18px;
+    border: 0.800px solid #777;
+}
+main section#seccion7 div#containerSeccion7 section#formulario form div#form2 label, main section#seccion7 div#containerSeccion7 section#formulario form div#form2 textarea {
+    display: block;
+}
+main section#seccion7 div#containerSeccion7 section#formulario form div#form2 label {
+    margin: 19px 0px 22px 15px;
+    color: #1ac4e8;
+    font-size: 21px;
+    line-height: 22px;
+}
+main section#seccion7 div#containerSeccion7 section#formulario form div#form2 textarea {
+    width: 92%;
+    height: 117.400px;
+    margin-left: 15px;
+    padding: 13px 18px;
+    border: 0.800px solid #777;
+}
+main section#seccion7 div#containerSeccion7 section#formulario button {
+    align-items: flex-start;
+    background-color: #fe6c01;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 47px 0px 0px 45%;
+    padding: 21px 38px;
+    border: 0.800px solid #777;
+    cursor: pointer;
+    position: static;
+}
+main section#seccion7 div#containerSeccion7 section#formulario button:hover {
+    background-color: #1ac4e8;
+}
+section#pre-footer {
+    width: 100%;
+    height: 106px;
+    padding: 70px 0px;
+}
+section#pre-footer div.seccionPre-footer {
+    width: 30%;
+    display: inline-block;
+    padding: 0px 15px;
+}
+section#pre-footer div.seccionPre-footer div.tituloPre-footer img, section#pre-footer div.seccionPre-footer div.tituloPre-footer div.name {
+    display: inline-block;
+}
+section#pre-footer div.seccionPre-footer div.tituloPre-footer div.name h6 {
+    padding-left: 10px;
+    font-size: 22px;
+    color: #1ac4e8;
+    font-weight: 500;
+    line-height: 28.0001px;
+    margin-bottom: 22px;
+}
+section#pre-footer div.seccionPre-footer div.contentPre-footer a {
+    text-decoration: none;
+    color: #777;
+}
+section#pre-footer div.seccionPre-footer div.contentPre-footer a.bold {
+    color: #000;
+    font-weight: bold;
+    margin-left: 15px;
+}
+section#pre-footer div.seccionPre-footer div.tituloPre-footer h6#follow {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #1ac4e8;
+}
+section#pre-footer div.seccionPre-footer div#contentPre-foter2 {
+
+}
+section#pre-footer div.seccionPre-footer div#contentPre-foter2 ul, section#pre-footer div.seccionPre-footer div#contentPre-foter2 li {
+    display: inline-block;
+}
+section#pre-footer div.seccionPre-footer div#contentPre-foter2 li {
+    background: url(../icons/circle.png) center;
+    padding: 13px 19px;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+section#pre-footer div.seccionPre-footer div#contentPre-foter2 li:hover {
+    background: url(../icons/checkbox-blank-circle2.png) center;
+}
+footer {
+    width: 100%;
+    height: 33.600px;
+    padding: 20px 0px;
+    background: rgb(248, 248, 248);
+}
+footer p {
+    margin: 0px 33.200px;
+    padding: 0px 15px;
+    color: #777;
+}
+footer p span#hostCeleste {
+    color: #1ac4e8;
+    font-weight: 500;
+    font-size: 20px;
+}
+footer p span#proNegro {
+    color: #333;
+    font-weight: 500;
+    font-size: 20px;
+}
+footer p a {
+    text-decoration: none;
+    color: #777;
 }
