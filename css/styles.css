@@ -31,7 +31,7 @@ header section h1 a span#pro {
     font-size: 57px;
 }
 header section div#info-cabecera {
-    width: 56%;
+    width: 57%;
     float: right;
 }
 header section div p, header section div p strong, header section div button {
@@ -617,9 +617,6 @@ section#pre-footer div.seccionPre-footer div.tituloPre-footer h6#follow {
     font-size: 22px;
     color: #1ac4e8;
 }
-section#pre-footer div.seccionPre-footer div#contentPre-foter2 {
-
-}
 section#pre-footer div.seccionPre-footer div#contentPre-foter2 ul, section#pre-footer div.seccionPre-footer div#contentPre-foter2 li {
     display: inline-block;
 }
@@ -659,4 +656,383 @@ footer p a {
 }
 footer p a:hover {
     color: #1ac4e8;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
+    header#cabecera {
+        width: 100%;
+        height: 56px;
+        padding: 4px;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #fff;
+    }
+    header section h1 a {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        margin-left: 58px;
+    }
+    header section div#info-cabecera {
+        display: none;
+    }
+    header nav ul li {
+        display: none;
+    }
+    section#slider {
+        width: 100%;
+        height: 164.14px;
+        padding: 0px;
+        background: url(../images/home-slide-1responsive.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    section#slider div#containerSlider {
+        padding: 49px;
+    }
+    section#slider h4, section#slider h2, section#slider h3 {
+        width: 100%;
+        font-size: 20px;
+        margin: 0px;
+        line-height: 24px;
+    }
+    section#slider h4 {
+        line-height: 24px;
+    }
+    section#slider p {
+        display: none;
+    }
+    main section#seccion1 {
+        width: 100%;
+        height: 188.400px;
+        padding: 80px 0px;
+        margin: 0px;
+    }
+    main section#seccion1 h2 span.black, main section#seccion1 h2 span.orange {
+        font-size: 22px;
+    }
+    main section#seccion1 p {
+        font-size: 16px;
+        margin: 0px 15px;
+        text-align: center;
+    }
+    main section#seccion2 {
+        width: 100%;
+        height: 907px;
+    }
+    main section article#art1, main section article#art2 {
+        width: 100%;
+        display: block;
+    }
+    main section article#art1 {
+        height: 352px;
+        padding: 40px 0px;
+    }
+    main section article#art2 {
+        height: 314px;
+    }
+    main section article#art1 img {
+        width: 80px;
+        height: 80px;
+    }
+    main section article h3 span#webhost, main section article h3 span#services {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    main section article p {
+        font-size: 16px;
+        margin-top: 18px;
+    }
+    main section article button.readMore {
+        width: 130.03px;
+        height: 48.3px;
+        padding: 0px;
+        margin-top: 25px;
+    }
+    main section article button.readMore a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    main section article#art2 {
+        height: 394px;
+        padding: 40px 20px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 80px;
+    }
+    main section article#art2 button.readMore2 {
+        float: left;
+        position: absolute;
+        left: 37%;
+    }
+    main section article#art2 h2 span#estrella {
+        font-size: 32px;
+    }
+    main section article#art2 h2 span#com {
+        font-size: 32px;
+    }
+    main section article h3 span#domain, main section article h3 span#serv {
+        font-size: 22px;
+        display: inline-block;
+    }
+    main section article h3 span#serv {
+        font-weight: 300;
+    }
+    main section#seccion3 {
+        width: 100%;
+        height: 2025px;
+        padding: 80px 0px;
+    }
+    main section#seccion3 h2 span.black, main section#seccion3 h2 span.orange {
+        font-size: 22px;
+    }
+    main section#seccion3 p#textoSeccion3 {
+        width: 93%;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 18px 15px 0px 15px;
+    }
+    main section#seccion3 ul {
+        width: 93%;
+        height: 1630.800px;
+        margin: 47px 15px 20px 15px;
+    }
+    main section#seccion3 ul li.lista, main section#seccion3 ul li.lista2 {
+        width: 93%;
+        height: 260px;
+        text-align: center;
+    }
+    main section#seccion3 ul li.lista aside {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+    main section#seccion3 ul li img {
+        width: 52%;
+        height: 52%;
+        background-size: 100px 100px;
+    }
+    main section#seccion3 ul li img:hover {
+        width: 52px;
+        height: 52px;
+        background-size: 100px 100px;
+    }
+    main section#seccion3 ul li.lista section h4 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 24px;
+    }
+    main section#seccion3 ul li.lista section p {
+        font-size: 14px;
+        font-weight: 300;
+        color: rgb(119, 119, 119);
+    }
+    main section#seccion3 ul li.lista {
+        margin: 0px;
+    }
+    main section#seccion3 ul li.lista2 {
+        margin-top: 50px;
+        float: left;
+    }
+    main section#seccion3 ul li.lista3 {
+        margin-top: 50px;
+    }
+    main section#seccion4 {
+        width: 100%;
+        height: 867.800px;
+        padding: 80px 0px;
+        background: url(../images/home-2-responsive.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    main section#seccion4 h2, main section#seccion4 p {
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px 15px;
+    }
+    .our, .statistics {
+        font-size: 22px;
+    }
+    main section#seccion4 p {
+        line-height: 24px;
+    }
+    main section#seccion5 {
+        width: 100%;
+        height: 2143.4px;
+        padding: 80px 0px 40px 0px;
+    }
+    main section#seccion5 h2 {
+        padding: 0px 15px;
+    }
+    main section#seccion5 p#textoSeccion5 {
+        padding: 0px 15px;
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion5 section.planes {
+        display: block;
+        width: 93%;
+        height: 583.800px;
+    }
+    main section#seccion5 section.planes h4 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    main section#seccion5 section.planes div.valor p sup {
+        font-size: 27.45px;
+        font-weight: normal;
+        line-height: 0px;
+    }
+    main section#seccion5 section.planes div.valor p span.precio {
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 45px;
+    }
+    main section#seccion5 section.planes div.valor p span.meses {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 14px;
+    }
+    main section#seccion5 section.planes div.contentPlanes p {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22.4px;
+    }
+    main section#seccion5 section.planes div.contentPlanes ul li span.blue, main section#seccion5 section.planes div.contentPlanes ul li span.hight {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19.2px;
+    }
+    main section#seccion5 section.planes div.contentPlanes button {
+        margin-top: 22px;
+        padding: 9.750px 18px;
+        background-color: #fe6c01;
+        border: 0.800px solid #fe6c01;
+    }
+    main section#seccion5 section.planes div.contentPlanes button a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27.2px;
+    }
+    main section#seccion6 {
+        width: 100%;
+        height: 936px;
+        padding: 80px 0px;
+        background-color: #1ac4e8;
+        color: #fff;
+    }
+    main section#seccion6 h2 img {
+        width: 38.26px;
+        height: 45.6px;
+        margin-right: 5.739px;
+    }
+    main section#seccion6 h2 span {
+        font-size: 22px;
+        position: relative;
+        top: 10px;
+    }
+    main section#seccion6 div#containerSeccion6 {
+        margin: 47px 15px 0px 15px;
+    }
+    main section#seccion6 section.container {
+        display: block;
+        width: 93%;
+        height: 251px;
+        margin-bottom: 42px;
+    }
+    main section#seccion6 section.container section h6 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.2px;
+    }
+    main section#seccion6 section.container section small {
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+    main section#seccion6 section.container p {
+        margin-top: 20px;
+        height: auto;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    main section#seccion7 {
+        width: 93.5%;
+        height: 859px;
+        padding: 40px 15px;
+    }
+    main section#seccion7 div#containerSeccion7 h2 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26.4px;
+    }
+    main section#seccion7 div#containerSeccion7 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #777;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section {
+        width: 94%;
+        display: block;
+        padding: 0px 15px;
+        margin-bottom: 19px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 textarea {
+        width: 85%;
+        height: 117.400px;
+        margin-left: 15px;
+        padding: 13px 18px;
+        border: 0.800px solid #777;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario button {
+        margin: 47px 0px 0px 34%;
+    }
+    section#pre-footer {
+        width: 93.5%;
+        height: 327px;
+        padding: 70px 15px;
+        background: rgb(248,248,248);
+    }
+    section#pre-footer div.seccionPre-footer {
+        width: 93%;
+        display: block;
+        padding: 0px 15px;
+        margin-bottom: 36px;
+    }
+    section#pre-footer div.seccionPre-footer div.tituloPre-footer img, section#pre-footer div.seccionPre-footer div.tituloPre-footer div.name {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    section#pre-footer div.seccionPre-footer div.tituloPre-footer div.name h6 {
+        padding-left: 10px;
+        font-size: 22px;
+        color: #1ac4e8;
+        font-weight: 500;
+        line-height: 28.0001px;
+        margin-bottom: 22px;
+    }
+    section#pre-footer div.seccionPre-footer div.contentPre-footer a {
+        text-decoration: none;
+        color: #777;
+        margin-top: 10px;
+    }
+    section#pre-footer div.seccionPre-footer div.contentPre-footer a.bold {
+        color: #000;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+    footer {
+        display: none;
+    }
 }
