@@ -578,6 +578,11 @@ main section#seccion7 div#containerSeccion7 section#formulario button {
 main section#seccion7 div#containerSeccion7 section#formulario button:hover {
     background-color: #1ac4e8;
 }
+section#seccion8 {
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
 section#pre-footer {
     width: 100%;
     height: 106px;
