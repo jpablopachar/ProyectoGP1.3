@@ -1038,7 +1038,590 @@ footer p a:hover {
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
+@media screen and (max-width: 516px) and (min-width: 481px) {
+    header#cabecera {
+        width: 98.5%;
+        height: 48px;
+        padding: 4px;
+        top: 0:
+        position: fixed;
+        background-color: blueviolet;
+    }
+    header section h1 a {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        margin-left: 58px;
+    }
+    header section div#info-cabecera {
+        display: none;
+    }
+    header nav ul li {
+        display: none;
+    }
+    section#slider {
+        width: 100%;
+        height: 266.025px;
+        background-size: 100% 100%;
+    }
+    section#slider h4, section#slider h2, section#slider h3 {
+        margin: 0px;
+    }
+    section#slider h4 {
+        font-size: 20px;
+    }
+    section#slider h2 {
+        font-size: 26px;
+    }
+    section#slider h3 {
+        font-size: 22px;
+    }
+    section#slider p {
+        display: none;
+    }
+    section#slider div#containerSlider {
+        margin: 60px 69px;
+    }
+    main section#seccion1 {
+        width: 100%;
+        height: 140.400px;
+        padding: 80px 0px;
+    }
+    main section#seccion1 h2 span.black, main section#seccion1 h2 span.orange {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    main section#seccion1 p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0px 54px;
+    }
+    main section#seccion2 {
+        height: auto;
+        width: 100%;
+    }
+    main section article#art1, main section article#art2 {
+        display: block;
+        width: 95.9%;
+        height: 344px;
+        padding: 40px 15px;
+    }
+    main section article#art1 img {
+        width: 80px;
+        height: 80px;
+    }
+    main section article#art1 h3 span#webhost, main section article#art1 h3 span#services {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    main section article#art1 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 18px;
+    }
+    main section article#art1 button.readMore {
+        margin-top: 25px;
+    }
+    main section article#art1 button.readMore a {
+        font-size: 16px;
+    }
+    main section article#art2 {
+        background-size: 100% 100%;
+        float: left;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    main section article#art2 h2 span#estrella {
+        font-size: 32px;
+    }
+    main section article#art2 h2 span#com {
+        font-size: 32px;
+    }
+    main section article#art2 span#domain, main section article#art2 span#serv {
+        font-size: 22px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    main section article#art2 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section article#art2 button.readMore2 a {
+        font-size: 16px;
+    }
+    main section#seccion3 {
+        width: 100%;
+        height: 2511px;
+    }
+    main section#seccion3 h2 span.black, main section#seccion3 h2 span.orange {
+        margin-top: 80px;
+        font-size: 22px;
+    }
+    main section#seccion3 p#textoSeccion3 {
+        width: 79%;
+        margin: 18px 69px 0px 69px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion3 ul {
+        width: 100%;
+        height: 1094.200px;
+    }
+    main section#seccion3 ul li.lista, main section#seccion3 ul li.lista2 {
+        width: 95%;
+        margin: 0px 0px 50px 0px;
+        text-align: center;
+        display: block;
+    }
+    main section#seccion3 ul li.lista aside {
+        width: 24.5%;
+    }
+    main section#seccion4 {
+        width: 100%;
+        height: 550px;
+        background: url(../images/home-2-responsive.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    main section#seccion5 {
+        width: 100%;
+        height: 2185px;
+        padding: 80px 0px 40px 0px;
+    }
+    main section#seccion5 h2 span.our, main section#seccion5 h2 span.statistics {
+        font-size: 22px;
+    }
+    main section#seccion5 p#textoSeccion5 {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 18px 69px 0px 69px;
+    }
+    main section#seccion4 {
+        width: 100%;
+        height: 750px;
+    }
+    main section#seccion5 section.planes {
+        width: 68%;
+        height: 673px;
+        display: block;
+        margin: 0px 110px;
+    }
+    main section#seccion5 section.planes h4 {
+        font-size: 20px;
+    }
+    main section#seccion5 section.planes div.valor p sup {
+        font-size: 27.45px;
+    }
+    main section#seccion5 section.planes div.valor p span.precio {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    main section#seccion5 section.planes div.valor p span.meses {
+        font-size: 14px;
+    }
+    main section#seccion5 section.planes div.contentPlanes p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+        main section#seccion5 section.planes div.contentPlanes ul li span.blue {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    main section#seccion5 section.planes div.contentPlanes ul li span.hight {
+        color: #777;
+        font-size: 16px;
+    }
+    main section#seccion6 {
+        padding: 80px 0px;
+        width: 100%;
+        height: auto;
+    }main section#seccion6 h2 img {
+        width: 38.26px;
+        height: 45.6px;
+    }
+    main section#seccion6 h2 span {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    main section#seccion6 div#containerSeccion6 {
+        margin: 0px;
+    }
+    main section#seccion6 section.container {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: 47px 69px 0px 69px;
+    }
+    main section#seccion6 section.container section h6 {
+        font-size: 16px;
+    }
+    main section#seccion6 section.container section small {
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+    main section#seccion6 section.container p {
+        margin-top: 20px;
+        height: auto;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center
+    }
+    main section#seccion7 {
+        width: 100%;
+        height: 834px;
+        padding: 40px 0px;
+    }
+    main section#seccion7 div#containerSeccion7 h2 {
+        font-size: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section {
+        width: 75%;
+        display: block;
+        margin: 0px 69px 19px 69px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 label {
+        width: 50%;
+        margin: 19px 0px 22px 85px;
+        font-size: 21px;
+        line-height: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 textarea {
+        width: 67%;
+        height: 117.400px;
+        margin-left: 85px;
+        padding: 13px 18px;
+        border: 0.800px solid #777;
+    }
+    section#pre-footer {
+        width: 81%;
+        height: 327px;
+        padding: 70px 69px;
+        background: rgb(248,248,248);
+    }
+    section#pre-footer div.seccionPre-footer {
+        width: 93%;
+        display: block;
+        padding: 0px 15px;
+        margin-bottom: 36px;
+    }
+    section#pre-footer div.seccionPre-footer div.contentPre-footer a {
+        font-size: 18px;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 564px) and (min-width: 517px) {
+    header#cabecera {
+        width: 98.5%;
+        height: 48px;
+        padding: 4px;
+        top: 0:
+        position: fixed;
+        background-color: brown;
+    }
+    header section h1 a {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        margin-left: 58px;
+    }
+    header section div#info-cabecera {
+        display: none;
+    }
+    header nav ul li {
+        display: none;
+    }
+    section#slider {
+        width: 100%;
+        height: 266.025px;
+        background-size: 100% 100%;
+    }
+    section#slider h4, section#slider h2, section#slider h3 {
+        margin: 0px;
+    }
+    section#slider h4 {
+        font-size: 20px;
+    }
+    section#slider h2 {
+        font-size: 26px;
+    }
+    section#slider h3 {
+        font-size: 22px;
+    }
+    section#slider p {
+        display: none;
+    }
+    section#slider div#containerSlider {
+        margin: 60px 69px;
+    }
+    main section#seccion1 {
+        width: 100%;
+        height: 140.400px;
+        padding: 80px 0px;
+    }
+    main section#seccion1 h2 span.black, main section#seccion1 h2 span.orange {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    main section#seccion1 p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0px 54px;
+    }
+    main section#seccion2 {
+        height: auto;
+        width: 100%;
+    }
+    main section article#art1, main section article#art2 {
+        display: block;
+        width: 95.9%;
+        height: 344px;
+        padding: 40px 15px;
+    }
+    main section article#art1 img {
+        width: 80px;
+        height: 80px;
+    }
+    main section article#art1 h3 span#webhost, main section article#art1 h3 span#services {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    main section article#art1 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 18px;
+    }
+    main section article#art1 button.readMore {
+        margin-top: 25px;
+    }
+    main section article#art1 button.readMore a {
+        font-size: 16px;
+    }
+    main section article#art2 {
+        background-size: 100% 100%;
+        float: left;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    main section article#art2 h2 span#estrella {
+        font-size: 32px;
+    }
+    main section article#art2 h2 span#com {
+        font-size: 32px;
+    }
+    main section article#art2 span#domain, main section article#art2 span#serv {
+        font-size: 22px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    main section article#art2 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section article#art2 button.readMore2 a {
+        font-size: 16px;
+    }
+    main section#seccion3 {
+        width: 100%;
+        height: 2511px;
+    }
+    main section#seccion3 h2 span.black, main section#seccion3 h2 span.orange {
+        margin-top: 80px;
+        font-size: 22px;
+    }
+    main section#seccion3 p#textoSeccion3 {
+        width: 79%;
+        margin: 18px 69px 0px 69px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion3 ul {
+        width: 100%;
+        height: 1094.200px;
+    }
+    main section#seccion3 ul li.lista, main section#seccion3 ul li.lista2 {
+        width: 95%;
+        margin: 0px 0px 50px 0px;
+        text-align: center;
+        display: block;
+    }
+    main section#seccion3 ul li.lista aside {
+        width: 24.5%;
+    }
+    main section#seccion4 {
+        width: 100%;
+        height: 550px;
+    }
+    main section#seccion5 {
+        width: 100%;
+        height: 2185px;
+        padding: 80px 0px 40px 0px;
+    }
+    main section#seccion5 h2 span.our, main section#seccion5 h2 span.statistics {
+        font-size: 22px;
+    }
+    main section#seccion5 p#textoSeccion5 {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 18px 69px 0px 69px;
+    }
+    main section#seccion5 section.planes {
+        width: 68%;
+        height: 673px;
+        display: block;
+        margin: 0px 110px;
+    }
+    main section#seccion5 section.planes h4 {
+        font-size: 20px;
+    }
+    main section#seccion5 section.planes div.valor p sup {
+        font-size: 27.45px;
+    }
+    main section#seccion5 section.planes div.valor p span.precio {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    main section#seccion5 section.planes div.valor p span.meses {
+        font-size: 14px;
+    }
+    main section#seccion5 section.planes div.contentPlanes p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+        main section#seccion5 section.planes div.contentPlanes ul li span.blue {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    main section#seccion5 section.planes div.contentPlanes ul li span.hight {
+        color: #777;
+        font-size: 16px;
+    }
+    main section#seccion6 {
+        padding: 80px 0px;
+        width: 100%;
+        height: auto;
+    }main section#seccion6 h2 img {
+        width: 38.26px;
+        height: 45.6px;
+    }
+    main section#seccion6 h2 span {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    main section#seccion6 div#containerSeccion6 {
+        margin: 0px;
+    }
+    main section#seccion6 section.container {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: 47px 69px 0px 69px;
+    }
+    main section#seccion6 section.container section h6 {
+        font-size: 16px;
+    }
+    main section#seccion6 section.container section small {
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+    main section#seccion6 section.container p {
+        margin-top: 20px;
+        height: auto;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center
+    }
+    main section#seccion7 {
+        width: 100%;
+        height: 834px;
+        padding: 40px 0px;
+    }
+    main section#seccion7 div#containerSeccion7 h2 {
+        font-size: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section {
+        width: 75%;
+        display: block;
+        margin: 0px 69px 19px 69px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 label {
+        width: 50%;
+        margin: 19px 0px 22px 85px;
+        font-size: 21px;
+        line-height: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 textarea {
+        width: 67%;
+        height: 117.400px;
+        margin-left: 85px;
+        padding: 13px 18px;
+        border: 0.800px solid #777;
+    }
+    section#pre-footer {
+        width: 81%;
+        height: 327px;
+        padding: 70px 69px;
+        background: rgb(248,248,248);
+    }
+    section#pre-footer div.seccionPre-footer {
+        width: 93%;
+        display: block;
+        padding: 0px 15px;
+        margin-bottom: 36px;
+    }
+    section#pre-footer div.seccionPre-footer div.contentPre-footer a {
+        font-size: 18px;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 616px) and (min-width: 565px) {
+    header#cabecera {
+        width: 98.5%;
+        height: 48px;
+        padding: 4px;
+        top: 0:
+        position: fixed;
+        background-color: greenyellow;
+    }
+    header section h1 a {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        margin-left: 58px;
+    }
+    header section div#info-cabecera {
+        display: none;
+    }
+    header nav ul li {
+        display: none;
+    }
+/*
     header#cabecera {
         width: 90%;
         height: 236px;
@@ -1077,7 +1660,979 @@ footer p a:hover {
         font-size: 18px;
         font-weight: 700;
     }
+*/
     section#slider {
+        width: 100%;
+        height: 266.025px;
+        background-size: 100% 100%;
+    }
+    section#slider h4, section#slider h2, section#slider h3 {
+        margin: 0px;
+    }
+    section#slider h4 {
+        font-size: 20px;
+    }
+    section#slider h2 {
+        font-size: 26px;
+    }
+    section#slider h3 {
+        font-size: 22px;
+    }
+    section#slider p {
+        display: none;
+    }
+    section#slider div#containerSlider {
+        margin: 60px 69px;
+    }
+    main section#seccion1 {
+        width: 100%;
+        height: 140.400px;
+        padding: 80px 0px;
+    }
+    main section#seccion1 h2 span.black, main section#seccion1 h2 span.orange {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    main section#seccion1 p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0px 54px;
+    }
+    main section#seccion2 {
+        height: auto;
+        width: 100%;
+    }
+    main section article#art1, main section article#art2 {
+        display: block;
+        width: 95.9%;
+        height: 344px;
+        padding: 40px 15px;
+    }
+    main section article#art1 img {
+        width: 80px;
+        height: 80px;
+    }
+    main section article#art1 h3 span#webhost, main section article#art1 h3 span#services {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    main section article#art1 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 18px;
+    }
+    main section article#art1 button.readMore {
+        margin-top: 25px;
+    }
+    main section article#art1 button.readMore a {
+        font-size: 16px;
+    }
+    main section article#art2 {
+        background-size: 100% 100%;
+        float: left;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    main section article#art2 h2 span#estrella {
+        font-size: 32px;
+    }
+    main section article#art2 h2 span#com {
+        font-size: 32px;
+    }
+    main section article#art2 span#domain, main section article#art2 span#serv {
+        font-size: 22px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    main section article#art2 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section article#art2 button.readMore2 a {
+        font-size: 16px;
+    }
+    main section#seccion3 {
+        width: 100%;
+        height: 1673px;
+    }
+    main section#seccion3 h2 span.black, main section#seccion3 h2 span.orange {
+        margin-top: 80px;
+        font-size: 22px;
+    }
+    main section#seccion3 p#textoSeccion3 {
+        width: 79%;
+        margin: 18px 69px 0px 69px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion3 ul {
+        width: 100%;
+        height: 1094.200px;
+    }
+    main section#seccion3 ul li.lista, main section#seccion3 ul li.lista2 {
+        width: 95%;
+        display: block;
+        float: left;
+        margin: 0px 0px 50px 0px
+    }
+    main section#seccion3 ul li.lista aside, main section#seccion3 ul li.lista section {
+        display: inline-block;
+    }
+    main section#seccion3 ul li.lista aside {
+        width: 12%;
+    }
+    main section#seccion3 ul li.lista section {
+        margin-left: 40px;
+    }
+    main section#seccion4 {
+        width: 100%;
+        height: 550px;
+    }
+    main section#seccion5 {
+        width: 100%;
+        height: 2185px;
+        padding: 80px 0px 40px 0px;
+    }
+    main section#seccion5 h2 span.our, main section#seccion5 h2 span.statistics {
+        font-size: 22px;
+    }
+    main section#seccion5 p#textoSeccion5 {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 18px 69px 0px 69px;
+    }
+    main section#seccion5 section.planes {
+        width: 68%;
+        height: 673px;
+        display: block;
+        margin: 0px 110px;
+    }
+    main section#seccion5 section.planes h4 {
+        font-size: 20px;
+    }
+    main section#seccion5 section.planes div.valor p sup {
+        font-size: 27.45px;
+    }
+    main section#seccion5 section.planes div.valor p span.precio {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    main section#seccion5 section.planes div.valor p span.meses {
+        font-size: 14px;
+    }
+    main section#seccion5 section.planes div.contentPlanes p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+        main section#seccion5 section.planes div.contentPlanes ul li span.blue {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    main section#seccion5 section.planes div.contentPlanes ul li span.hight {
+        color: #777;
+        font-size: 16px;
+    }
+    main section#seccion6 {
+        padding: 80px 0px;
+        width: 100%;
+        height: auto;
+    }main section#seccion6 h2 img {
+        width: 38.26px;
+        height: 45.6px;
+    }
+    main section#seccion6 h2 span {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    main section#seccion6 div#containerSeccion6 {
+        margin: 0px;
+    }
+    main section#seccion6 section.container {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: 47px 69px 0px 69px;
+    }
+    main section#seccion6 section.container section h6 {
+        font-size: 16px;
+    }
+    main section#seccion6 section.container section small {
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+    main section#seccion6 section.container p {
+        margin-top: 20px;
+        height: auto;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center
+    }
+    main section#seccion7 {
+        width: 100%;
+        height: 834px;
+        padding: 40px 0px;
+    }
+    main section#seccion7 div#containerSeccion7 h2 {
+        font-size: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section {
+        width: 75%;
+        display: block;
+        margin: 0px 69px 19px 69px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 label {
+        width: 50%;
+        margin: 19px 0px 22px 85px;
+        font-size: 21px;
+        line-height: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 textarea {
+        width: 67%;
+        height: 117.400px;
+        margin-left: 85px;
+        padding: 13px 18px;
+        border: 0.800px solid #777;
+    }
+    section#pre-footer {
+        width: 81%;
+        height: 327px;
+        padding: 70px 69px;
+        background: rgb(248,248,248);
+    }
+    section#pre-footer div.seccionPre-footer {
+        width: 93%;
+        display: block;
+        padding: 0px 15px;
+        margin-bottom: 36px;
+    }
+    section#pre-footer div.seccionPre-footer div.contentPre-footer a {
+        font-size: 18px;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 717px) and (min-width: 617px) {
+    header#cabecera {
+        width: 100%;
+        height: 48px;
+        padding: 4px;
+        position: fixed;
+        background-color: pink;
+    }
+    header section h1 a {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        margin-left: 58px;
+    }
+    header section div#info-cabecera {
+        display: none;
+    }
+    header nav ul li {
+        display: none;
+    }
+    section#slider {
+        width: 100%;
+        height: 266.025px;
+        background-size: 100% 100%;
+    }
+    section#slider h4, section#slider h2, section#slider h3 {
+        margin: 0px;
+    }
+    section#slider h4 {
+        font-size: 20px;
+    }
+    section#slider h2 {
+        font-size: 26px;
+    }
+    section#slider h3 {
+        font-size: 22px;
+    }
+    section#slider p {
+        display: none;
+    }
+    section#slider div#containerSlider {
+        margin: 60px 69px;
+    }
+    main section#seccion1 {
+        width: 100%;
+        height: 140.400px;
+        padding: 80px 0px;
+    }
+    main section#seccion1 h2 span.black, main section#seccion1 h2 span.orange {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    main section#seccion1 p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0px 54px;
+    }
+    main section#seccion2 {
+        height: auto;
+        width: 100%;
+    }
+    main section article#art1, main section article#art2 {
+        display: block;
+        width: 95.9%;
+        height: 344px;
+        padding: 40px 15px;
+    }
+    main section article#art1 img {
+        width: 80px;
+        height: 80px;
+    }
+    main section article#art1 h3 span#webhost, main section article#art1 h3 span#services {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    main section article#art1 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 18px;
+    }
+    main section article#art1 button.readMore {
+        margin-top: 25px;
+    }
+    main section article#art1 button.readMore a {
+        font-size: 16px;
+    }
+    main section article#art2 {
+        background-size: 100% 100%;
+        float: left;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    main section article#art2 h2 span#estrella {
+        font-size: 32px;
+    }
+    main section article#art2 h2 span#com {
+        font-size: 32px;
+    }
+    main section article#art2 span#domain, main section article#art2 span#serv {
+        font-size: 22px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    main section article#art2 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section article#art2 button.readMore2 a {
+        font-size: 16px;
+    }
+    main section#seccion3 {
+        width: 100%;
+        height: 1655px;
+    }
+    main section#seccion3 h2 span.black, main section#seccion3 h2 span.orange {
+        margin-top: 80px;
+        font-size: 22px;
+    }
+    main section#seccion3 p#textoSeccion3 {
+        width: 79%;
+        margin: 18px 69px 0px 69px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion3 ul {
+        width: 79%;
+        /*height: 1094.200px;*/
+        height: 1094.200px;
+        margin: 47px 69px 20px 69px;
+    }
+    main section#seccion3 ul li.lista, main section#seccion3 ul li.lista2 {
+        width: 100%;
+        float: left;
+        margin: 0px 0px 50px 0px;
+        display: block;
+    }
+    main section#seccion3 ul li.lista aside, main section#seccion3 ul li.lista section {
+        display: inline-block;
+    }
+    main section#seccion3 ul li.lista aside {
+        width: 24%;
+    }
+    main section#seccion3 ul li.lista section {
+        width: 70%;
+    }
+    main section#seccion5 {
+        width: 100%;
+        height: 2185px;
+        padding: 80px 0px 40px 0px;
+    }
+    main section#seccion5 h2 span.our, main section#seccion5 h2 span.statistics {
+        font-size: 22px;
+    }
+    main section#seccion5 p#textoSeccion5 {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 18px 69px 0px 69px;
+    }
+    main section#seccion5 section.planes {
+        width: 68%;
+        height: 673px;
+        display: block;
+        margin: 0px 110px;
+    }
+    main section#seccion5 section.planes h4 {
+        font-size: 20px;
+    }
+    main section#seccion5 section.planes div.valor p sup {
+        font-size: 27.45px;
+    }
+    main section#seccion5 section.planes div.valor p span.precio {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    main section#seccion5 section.planes div.valor p span.meses {
+        font-size: 14px;
+    }
+    main section#seccion5 section.planes div.contentPlanes p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+        main section#seccion5 section.planes div.contentPlanes ul li span.blue {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    main section#seccion5 section.planes div.contentPlanes ul li span.hight {
+        color: #777;
+        font-size: 16px;
+    }
+    main section#seccion6 {
+        padding: 80px 0px;
+        width: 100%;
+        height: auto;
+    }main section#seccion6 h2 img {
+        width: 38.26px;
+        height: 45.6px;
+    }
+    main section#seccion6 h2 span {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    main section#seccion6 div#containerSeccion6 {
+        margin: 0px;
+    }
+    main section#seccion6 section.container {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: 47px 69px 0px 69px;
+    }
+    main section#seccion6 section.container section h6 {
+        font-size: 16px;
+    }
+    main section#seccion6 section.container section small {
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+    main section#seccion6 section.container p {
+        margin-top: 20px;
+        height: auto;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center
+    }
+    main section#seccion7 {
+        width: 100%;
+        height: 834px;
+        padding: 40px 0px;
+    }
+    main section#seccion7 div#containerSeccion7 h2 {
+        font-size: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section {
+        width: 75%;
+        display: block;
+        margin: 0px 69px 19px 69px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 label {
+        width: 50%;
+        margin: 19px 0px 22px 85px;
+        font-size: 21px;
+        line-height: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 textarea {
+        width: 67%;
+        height: 117.400px;
+        margin-left: 85px;
+        padding: 13px 18px;
+        border: 0.800px solid #777;
+    }
+    section#pre-footer {
+        width: 81%;
+        height: 327px;
+        padding: 70px 69px;
+        background: rgb(248,248,248);
+    }
+    section#pre-footer div.seccionPre-footer {
+        width: 93%;
+        display: block;
+        padding: 0px 15px;
+        margin-bottom: 36px;
+    }
+    section#pre-footer div.seccionPre-footer div.contentPre-footer a {
+        font-size: 18px;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 718px) {
+    header#cabecera {
+        width: 100%;
+        height: 48px;
+        padding: 4px;
+        position: fixed;
+        background-color: yellow;
+    }
+    header section h1 a {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        margin-left: 58px;
+    }
+    header section div#info-cabecera {
+        display: none;
+    }
+    header nav ul li {
+        display: none;
+    }
+/*
+    header#cabecera {
+        width: 90%;
+        height: 236px;
+        padding: 30px 15px 9px 15px;
+        margin: 0 auto;
+    }
+    header section#cabo {
+        width: 100%;
+        display: block;
+    }
+    header section h1, header section div#info-cabecera {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    header section div#info-cabecera {
+        text-align: center;
+    }
+    header section div p strong {
+        font-size: 18px;
+    }
+    header section div button {
+        display: block;
+        margin: 0 auto;
+    }
+    header nav ul li {
+        width: 9%;
+        list-style: none;
+        float: left;
+        margin-left: 15px;
+        margin-top: 19px;
+    }
+    header nav ul li a {
+        text-decoration: none;
+        color: #313131;
+        font-size: 18px;
+        font-weight: 700;
+    }
+*/
+    section#slider {
+        width: 100%;
+        height: 266.025px;
+        background-size: 100% 100%;
+    }
+    section#slider h4, section#slider h2, section#slider h3 {
+        margin: 0px;
+    }
+    section#slider h4 {
+        font-size: 20px;
+    }
+    section#slider h2 {
+        font-size: 26px;
+    }
+    section#slider h3 {
+        font-size: 22px;
+    }
+    section#slider p {
+        display: none;
+    }
+    section#slider div#containerSlider {
+        margin: 60px 69px;
+    }
+    main section#seccion1 {
+        width: 100%;
+        height: 140.400px;
+        padding: 80px 0px;
+    }
+    main section#seccion1 h2 span.black, main section#seccion1 h2 span.orange {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    main section#seccion1 p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0px 54px;
+    }
+    main section#seccion2 {
+        height: auto;
+        width: 100%;
+    }
+    main section article#art1, main section article#art2 {
+        display: block;
+        width: 95.9%;
+        height: 344px;
+        padding: 40px 15px;
+    }
+    main section article#art1 img {
+        width: 80px;
+        height: 80px;
+    }
+    main section article#art1 h3 span#webhost, main section article#art1 h3 span#services {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    main section article#art1 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 18px;
+    }
+    main section article#art1 button.readMore {
+        margin-top: 25px;
+    }
+    main section article#art1 button.readMore a {
+        font-size: 16px;
+    }
+    main section article#art2 {
+        background-size: 100% 100%;
+        float: left;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    main section article#art2 h2 span#estrella {
+        font-size: 32px;
+    }
+    main section article#art2 h2 span#com {
+        font-size: 32px;
+    }
+    main section article#art2 span#domain, main section article#art2 span#serv {
+        font-size: 22px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    main section article#art2 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section article#art2 button.readMore2 a {
+        font-size: 16px;
+    }
+    main section#seccion3 {
+        width: 100%;
+        height: 1673px;
+    }
+    main section#seccion3 h2 span.black, main section#seccion3 h2 span.orange {
+        margin-top: 80px;
+        font-size: 22px;
+    }
+    main section#seccion3 p#textoSeccion3 {
+        width: 79%;
+        margin: 18px 69px 0px 69px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion3 ul {
+        width: 79%;
+        /*height: 1094.200px;*/
+        height: 1094.200px;
+        margin: 47px 69px 20px 69px;
+    }
+    main section#seccion3 ul li.lista, main section#seccion3 ul li.lista2 {
+        width: 100%;
+        display: block;
+        float: left;
+        margin: 0px 0px 50px 0px;
+    }
+    main section#seccion5 {
+        width: 100%;
+        height: 2185px;
+        padding: 80px 0px 40px 0px;
+    }
+    main section#seccion5 h2 span.our, main section#seccion5 h2 span.statistics {
+        font-size: 22px;
+    }
+    main section#seccion5 p#textoSeccion5 {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 18px 69px 0px 69px;
+    }
+    main section#seccion5 section.planes {
+        width: 68%;
+        height: 673px;
+        display: block;
+        margin: 0px 110px;
+    }
+    main section#seccion5 section.planes h4 {
+        font-size: 20px;
+    }
+    main section#seccion5 section.planes div.valor p sup {
+        font-size: 27.45px;
+    }
+    main section#seccion5 section.planes div.valor p span.precio {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    main section#seccion5 section.planes div.valor p span.meses {
+        font-size: 14px;
+    }
+    main section#seccion5 section.planes div.contentPlanes p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+        main section#seccion5 section.planes div.contentPlanes ul li span.blue {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    main section#seccion5 section.planes div.contentPlanes ul li span.hight {
+        color: #777;
+        font-size: 16px;
+    }
+    main section#seccion6 {
+        padding: 80px 0px;
+        width: 100%;
+        height: auto;
+    }main section#seccion6 h2 img {
+        width: 38.26px;
+        height: 45.6px;
+    }
+    main section#seccion6 h2 span {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    main section#seccion6 div#containerSeccion6 {
+        margin: 0px;
+    }
+    main section#seccion6 section.container {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: 47px 69px 0px 69px;
+    }
+    main section#seccion6 section.container section h6 {
+        font-size: 16px;
+    }
+    main section#seccion6 section.container section small {
+        margin-top: 6px;
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+    main section#seccion6 section.container p {
+        margin-top: 20px;
+        height: auto;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center
+    }
+    main section#seccion7 {
+        width: 100%;
+        height: 834px;
+        padding: 40px 0px;
+    }
+    main section#seccion7 div#containerSeccion7 h2 {
+        font-size: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form1 section {
+        width: 75%;
+        display: block;
+        margin: 0px 69px 19px 69px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 label {
+        width: 50%;
+        margin: 19px 0px 22px 85px;
+        font-size: 21px;
+        line-height: 22px;
+    }
+    main section#seccion7 div#containerSeccion7 section#formulario form div#form2 textarea {
+        width: 67%;
+        height: 117.400px;
+        margin-left: 85px;
+        padding: 13px 18px;
+        border: 0.800px solid #777;
+    }
+    section#pre-footer {
+        width: 81%;
+        height: 327px;
+        padding: 70px 69px;
+        background: rgb(248,248,248);
+    }
+    section#pre-footer div.seccionPre-footer {
+        width: 93%;
+        display: block;
+        padding: 0px 15px;
+        margin-bottom: 36px;
+    }
+    section#pre-footer div.seccionPre-footer div.contentPre-footer a {
+        font-size: 18px;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 721px) {
+    header#cabecera {
+        width: 100%;
+        height: 48px;
+        padding: 4px;
+        position: fixed;
+        background-color: red;
+    }
+    header section h1 a {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 48px;
+        text-align: left;
+        margin-left: 58px;
+    }
+    header section div#info-cabecera {
+        display: none;
+    }
+    header nav ul li {
+        display: none;
+    }
+    section#slider {
+        width: 100%;
+        height: 277.337px;
+        background-size: 100% 100%;
+        display: block;
+        margin: 0px;
+    }
+    section#slider div#containerSlider {
+        margin: 80px 0px;
+    }
+    section#slider h4, section#slider h2, section#slider h3 {
+        margin: 0px;
+    }
+    section#slider h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    section#slider h2 {
+        font-size: 26px;
+        line-height: 31.2px;
+    }
+    section#slider h3 {
+        font-size: 22px;
+        line-height: 26.4px;
+    }
+    section#slider p {
+        display: none;
+    }
+    main section#seccion1 {
+        width: 100%;
+        height: 140.400px;
+        padding: 80px 0px;
+    }
+    main section#seccion1 h2 span.black, main section#seccion1 h2 span.orange {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    main section#seccion1 p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0px 68.800px;
+        padding: 0px 15px;
+    }
+    main section#seccion2 {
+        height: 304px;
+        width: 100%;
+    }
+    main section article#art1, main section article#art2 {
+        display: block;
+        width: 95.9%;
+        height: 344px;
+        padding: 40px 15px;
+    }
+    main section article#art1 img {
+        width: 80px;
+        height: 80px;
+    }
+    main section article#art1 h3 span#webhost, main section article#art1 h3 span#services {
+        font-size: 22px;
+        line-height: 26.4px;
+        margin-top: 10px;
+    }
+    main section article#art1 p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 18px;
+    }
+    main section article#art1 button.readMore {
+        margin-top: 25px;
+    }
+    main section article#art1 button.readMore a {
+        font-size: 16px;
+    }
+    main section article#art2 {
+        background-size: 100% 100%;
+        float: left;
+        height: auto;
+        margin-bottom: 80px;
+    }
+    main section article#art2 h2 span#estrella {
+        font-size: 32px;
+    }
+    main section article#art2 h2 span#com {
+        font-size: 32px;
+    }
+    main section article#art2 span#domain, main section article#art2 span#serv {
+        font-size: 22px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+    main section article#art2 p {
+        margin-top: 18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main section article#art2 button.readMore2 a {
+        font-size: 16px;
+    }section#slider {
         width: 100%;
         height: 266.025px;
         background-size: 100% 100%;
